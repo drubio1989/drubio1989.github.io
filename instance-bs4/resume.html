@@ -19,7 +19,7 @@
     <script defer src="assets/fontawesome/js/all.js"></script>
 
     <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/css/theme-12.css">
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-2.css">
 
 </head>
 
@@ -76,7 +76,7 @@
     <div class="header-intro header-intro-resume theme-bg-primary text-white py-5">
       <div class="container position-relative">
         <h2 class="page-heading mb-3">Resume</h2>
-        <a class="btn theme-btn-on-bg download-resume position-absolute font-weight-bold mx-auto" href="https://themes.3rdwavemedia.com/resources/sketch-template/pillar-sketch-sketch-resume-template-for-developers/" target="_blank"><i class="fas fa-download mr-2"></i>Download PDF Version</a>
+        <a class="btn theme-btn-on-bg download-resume position-absolute font-weight-bold mx-auto" href="Daniel-Resume.pdf" download><i class="fas fa-download mr-2"></i>Download PDF Version</a>
       </div><!--//container-->
     </div>
 
@@ -112,7 +112,7 @@
 			    <section class="resume-section summary-section mb-5">
 				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Career Summary</h2>
 				    <div class="resume-section-content">
-					    <p class="mb-0">I am a Ruby On Rails Developer with over 5 years of experience. I am proficient with modern Ruby On Rails and cloud AWS Web Services.
+					    <p class="mb-0">I am a Ruby On Rails Developer with 5 years of experience. I am proficient with modern web development using Ruby On Rails and cloud AWS Web Services.
                 I am both certified as an AWS Solutions Architect (Associate) and AWS Certified Developer.
               </p>
 				    </div>
@@ -120,7 +120,7 @@
 			    <div class="row">
 				    <div class="col-lg-9">
 					    <section class="resume-section experience-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Professional Experience</h2>
 						    <div class="resume-section-content">
 							    <div class="resume-timeline position-relative">
 								    <article class="resume-timeline-item position-relative pb-5">
@@ -133,29 +133,23 @@
 										    <div class="resume-position-time">October 2019 - Present</div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-                        <p>At SSL.com I am primarily responsible for improving existing code and writing new features for SSL.com using modern Ruby On Rails and
-                          the latest gems coupled with AWS serverless solutions. Additionally, I maintain and improve the infrastructure of the web portal
-                          utilizing a combination of AWS cloud infrastructure services. Lastly, I also automate developer workflow when applicable to eliminate
-                          wasted time configuring and manually updating changes.
-                        </p>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
 										    <ul>
-                          <li>Wrote SSL Certificate status scanning features utilizing multithreaded OpenSSL coupled with AWS ECS for workload management.</li>
-                          <li>Corrected critical broken domain validation api features from issuing wrong or invalid certificates to user entities.</li>
-											    <li>Automated developer onboarding time utilizing Vagrant to package fully prepared developer environments eliminating up time to a few hours maximum.</li>
-											    <li>Introduced and implmented CircleCI for faster and automated development testing and integration.</li>
-                          <li>Replaced outdated testing libraries and nonexistent coverage reporting with rspec, cypress, rubocop, simplecov, and additional libraries for cleaner code.</li>
-											    <li>Incorporated Code Climate into github repository for cleaner code reporting.</li>
-											    <li>Created new Amazon Ec2 instances for staging and qa environments.</li>
-                          <li>Replaced Capistrano with AWS Codedeploy to facilitate among developers and qa managers.</li>
-                          <li>Manage Developer IAM profiles and policies.</li>
+                          <li>Wrote SSL certificate status scanning features utilizing OpenSSL coupled with AWS SQS & AWS Lambda.</li>
+                          <li>Automated developer onboarding utilizing Vagrant to package fully prepared developer environments eliminating uptime to a few hours maximum.</li>
+                          <li>Introduced and implemented CircleCI for faster and automated development testing and integration.</li>
+                          <li>Created new Amazon Ec2 instances for staging, development, and qa environments.</li>
+                          <li>Replaced Capistrano with AWS Codedeploy to facilitate deployment among developers and qa
+                          managers.</li>
+                          <li>Corrected critical broken domain validation and billing api endpoints from issuing wrong or invalid
+                          certificates to user entities.</li>
 										    </ul>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 										    <ul class="list-inline">
-											    <li class="list-inline-item"><span class="badge badge-secondary badge-pill">AWS Ec2</span></li>
+											    <li class="list-inline-item"><span class="badge badge-secondary badge-pill">AWS EC2</span></li>
 											    <li class="list-inline-item"><span class="badge badge-secondary badge-pill">AWS CodeDeploy</span></li>
-											    <li class="list-inline-item"><span class="badge badge-secondary badge-pill">AWS IAM</span></li>
-											    <li class="list-inline-item"><span class="badge badge-secondary badge-pill">AWS ECS</span></li>
+											    <li class="list-inline-item"><span class="badge badge-secondary badge-pill">AWS Lambda</span></li>
+                          <li class="list-inline-item"><span class="badge badge-secondary badge-pill">AWS SQS</span></li>
 											    <li class="list-inline-item"><span class="badge badge-secondary badge-pill">CircleCI</span></li>
                           <li class="list-inline-item"><span class="badge badge-secondary badge-pill">Vagrant</span></li>
                           <li class="list-inline-item"><span class="badge badge-secondary badge-pill">Ruby</span></li>
@@ -177,9 +171,6 @@
 										    </div><!--//row-->
 										    <div class="resume-position-time">June 2014 - January 2018</div>
 									    </div><!--//resume-timeline-item-header-->
-                      <p>At Blackduck Software, I was one of 7 engineers maintaining the OpenHub web application. My role was to maintain
-                         the operational legacy features written in Rails 2.3 into Rails 4.1.
-                      </p>
 									    <div class="resume-timeline-item-desc">
                         <ul>
                           <li>Transferred email notifications and events to utilize AWS SES, SNS, and SQS fanout architecture.</li>
@@ -216,9 +207,6 @@
 										    <div class="resume-position-time">February 2014 - April 2014</div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-                        <p>
-                          At Launch Academy, I learned the foundation of Web Development and coding fundamentals as an apprentice.
-                        </p>
                         <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
                         <ul>
 											    <li>Learned object oriented programming fundamentals and design with Ruby.</li>
@@ -306,18 +294,18 @@
 						        <div class="resume-skill-item">
 						            <!-- <h4 class="resume-skills-cat font-weight-bold">Others</h4> -->
 						            <ul class="list-inline">
-                          <li class="list-inline-item"><span class="badge badge-light">AWS Services</span></li>
-                          <li class="list-inline-item"><span class="badge badge-light">Javascript</span></li>
-                          <li class="list-inline-item"><span class="badge badge-light">React</span></li>
                           <li class="list-inline-item"><span class="badge badge-light">Ruby</span></li>
                           <li class="list-inline-item"><span class="badge badge-light">Ruby On Rails</span></li>
                           <li class="list-inline-item"><span class="badge badge-light">MySQL</span></li>
                           <li class="list-inline-item"><span class="badge badge-light">PostgreSQL</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Docker</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Vagrant</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">HTML/CSS</span></li>
-                          <li class="list-inline-item"><span class="badge badge-light">Heroku</li>
-                          <li class="list-inline-item"><span class="badge badge-light">Gatsby.js</span></li>
+                          <li class="list-inline-item"><span class="badge badge-light">Javascript</span></li>
+                          <li class="list-inline-item"><span class="badge badge-light">React</span></li>
+                          <li class="list-inline-item"><span class="badge badge-light">HTML/CSS/SASS</span></li>
+                          <li class="list-inline-item"><span class="badge badge-light">Docker</span></li>
+                          <li class="list-inline-item"><span class="badge badge-light">Kubernetes</span></li>
+                          <li class="list-inline-item"><span class="badge badge-light">AWS Services</span></li>
+                          <li class="list-inline-item"><span class="badge badge-light">Linux</span></li>
+                          <li class="list-inline-item"><span class="badge badge-light">Web Hosting</span></li>
                           <li class="list-inline-item"><span class="badge badge-light">Static Web Page Development</span></li>
 						            </ul>
 						        </div><!--//resume-skill-item-->
@@ -385,27 +373,27 @@
 
 
     <!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->
-    <div id="config-panel" class="config-panel d-none d-lg-block">
-        <div class="panel-inner">
-            <a id="config-trigger" class="config-trigger config-panel-hide text-center" href="#"><i class="fas fa-cog mx-auto" data-fa-transform="down-6" ></i></a>
-            <h5 class="panel-title">Choose Colour</h5>
-            <ul id="color-options" class="list-inline mb-0">
-                <li class="theme-1 active list-inline-item"><a data-style="assets/css/theme-1.css" data-chart="#00BCD4" href="#"></a></li>
-                <li class="theme-2  list-inline-item"><a data-style="assets/css/theme-2.css" href="#"></a></li>
-                <li class="theme-3  list-inline-item"><a data-style="assets/css/theme-3.css" href="#"></a></li>
-                <li class="theme-4  list-inline-item"><a data-style="assets/css/theme-4.css" href="#"></a></li>
-                <li class="theme-5  list-inline-item"><a data-style="assets/css/theme-5.css" href="#"></a></li>
-                <li class="theme-6  list-inline-item"><a data-style="assets/css/theme-6.css" href="#"></a></li>
-                <li class="theme-7  list-inline-item"><a data-style="assets/css/theme-7.css" href="#"></a></li>
-                <li class="theme-8  list-inline-item"><a data-style="assets/css/theme-8.css" href="#"></a></li>
-                <li class="theme-9  list-inline-item"><a data-style="assets/css/theme-9.css" href="#"></a></li>
-                <li class="theme-10  list-inline-item"><a data-style="assets/css/theme-10.css" href="#"></a></li>
-                <li class="theme-11  list-inline-item"><a data-style="assets/css/theme-11.css" href="#"></a></li>
-                <li class="theme-12  list-inline-item"><a data-style="assets/css/theme-12.css" href="#"></a></li>
-            </ul>
-            <a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a>
-        </div><!--//panel-inner-->
-    </div><!--//configure-panel-->
+    <!-- <div id="config-panel" class="config-panel d-none d-lg-block">
+      <div class="panel-inner">
+        <a id="config-trigger" class="config-trigger config-panel-hide text-center" href="#"><i class="fas fa-cog mx-auto" data-fa-transform="down-6" ></i></a>
+        <h5 class="panel-title">Choose Colour</h5>
+        <ul id="color-options" class="list-inline mb-0">
+          <li class="theme-1 active list-inline-item"><a data-style="assets/css/theme-1.css" data-chart="#00BCD4" href="#"></a></li>
+          <li class="theme-2  list-inline-item"><a data-style="assets/css/theme-2.css" href="#"></a></li>
+          <li class="theme-3  list-inline-item"><a data-style="assets/css/theme-3.css" href="#"></a></li>
+          <li class="theme-4  list-inline-item"><a data-style="assets/css/theme-4.css" href="#"></a></li>
+          <li class="theme-5  list-inline-item"><a data-style="assets/css/theme-5.css" href="#"></a></li>
+          <li class="theme-6  list-inline-item"><a data-style="assets/css/theme-6.css" href="#"></a></li>
+          <li class="theme-7  list-inline-item"><a data-style="assets/css/theme-7.css" href="#"></a></li>
+          <li class="theme-8  list-inline-item"><a data-style="assets/css/theme-8.css" href="#"></a></li>
+          <li class="theme-9  list-inline-item"><a data-style="assets/css/theme-9.css" href="#"></a></li>
+          <li class="theme-10  list-inline-item"><a data-style="assets/css/theme-10.css" href="#"></a></li>
+          <li class="theme-11  list-inline-item"><a data-style="assets/css/theme-11.css" href="#"></a></li>
+          <li class="theme-12  list-inline-item"><a data-style="assets/css/theme-12.css" href="#"></a></li>
+        </ul>
+        <a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a>
+      </div>
+    </div> -->
 
 
 
